@@ -1,12 +1,12 @@
 terraform {
   /* Uncomment this block to use Terraform Cloud for this tutorial
   cloud {
-    organization = "organization-name"
+    organization = "gchm-labs"
     workspaces {
       name = "learn-terraform-provider-versioning"
     }
-  }
-  */
+  }*/
+  
 
   required_providers {
     random = {
