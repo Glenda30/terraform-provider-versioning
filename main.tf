@@ -9,6 +9,7 @@ resource "random_pet" "petname" {
 
 resource "aws_s3_bucket" "sample" {
   bucket = random_pet.petname.id
+  force_destroy = true
 
   acl    = "public-read"
   region = "us-west-2"
